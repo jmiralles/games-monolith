@@ -54,6 +54,8 @@
                         <phase>validate</phase>
                         <configuration>
                             <configLocation>google_checks.xml</configLocation>
+                            <violationSeverity>warning</violationSeverity>
+                            <failOnViolation>true</failOnViolation>
                             <encoding>UTF-8</encoding>
                             <consoleOutput>true</consoleOutput>
                             <failsOnError>true</failsOnError>
