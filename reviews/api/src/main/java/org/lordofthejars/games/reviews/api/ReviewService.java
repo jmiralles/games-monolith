@@ -4,6 +4,6 @@ import java.util.List;
 
 public interface ReviewService {
 
-    List<Review> findReviewsByGameId(long gameId);
+  List<Review> findReviewsByGameId(long gameId);
 
 }
