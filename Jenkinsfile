@@ -17,8 +17,6 @@ pipeline {
         stage('Deploy') {
             steps {
                 echo 'Deploying....'
-                sh 'docker build --tag=games .'
-                sh 'docker run -p 9990:9990 games'
             }
         }
     }
