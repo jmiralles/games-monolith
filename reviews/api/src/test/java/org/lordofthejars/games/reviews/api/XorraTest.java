@@ -6,6 +6,6 @@ import org.junit.Test;
 public class XorraTest {
   @Test
   public void test_xorra() {
-    Assert.assertTrue(true);
+    Assert.assertTrue(false);
   }
 }
