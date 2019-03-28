@@ -18,7 +18,7 @@ pipeline {
             steps {
                 echo 'Deploying....'
                 sh 'docker build --tag=games .'
-                sh 'docker run -p 4000:9990 games'
+                sh 'docker run -p 9990:9000 games'
             }
         }
     }
